@@ -1,0 +1,13 @@
+//Write C# Program to Find Minimum and Maximum of Numbers
+using System;
+using System.Linq;
+class Program
+{
+    static void Main()
+    {
+        int[] Arr = { 45, 84,-8,-1 };
+        Console.WriteLine("Maximum Element : " + Arr.Max());
+        Console.WriteLine("Minimum Element : " + Arr.Min());
+        Console.Read();
+    }
+}

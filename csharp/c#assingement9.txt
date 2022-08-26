@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main()
+        {
+            int i       = 0;
+            int[] arr   =  {2,5,-88,6,-8,6};
+            
+            Console.WriteLine("List of negative numbers : ");
+            for (i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] < 0)
+                    Console.Write(arr[i] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
